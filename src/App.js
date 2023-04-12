@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ContactUsC from "./components/contact-us/ContactUsC";
+import ContactUsB from "./components/contact-us/ContactUsB";
+import ContactUsBoheimian from "./components/contact-us/ContactUsBoheimian";
+import HeroCardC from "./components/hero-card/HeroCardC";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" >
+            <Route path="contact-us-c" element={<ContactUsC />} />
+            <Route path="contact-us-b" element={<ContactUsB />} />
+            <Route path="contact-us-boheimian" element={<ContactUsBoheimian />} />
+            <Route path="hero-card-c" element={<HeroCardC />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
