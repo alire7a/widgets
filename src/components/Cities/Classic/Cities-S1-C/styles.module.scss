@@ -1,0 +1,23 @@
+@mixin stroke($color: #000, $size: 1px) {
+  text-shadow:
+          -#{$size} -#{$size} 0 $color,
+          0        -#{$size} 0 $color,
+          #{$size} -#{$size} 0 $color,
+          #{$size}  0        0 $color,
+          #{$size}  #{$size} 0 $color,
+          0         #{$size} 0 $color,
+          -#{$size}  #{$size} 0 $color,
+          -#{$size}  0        0 $color;
+}
+.name{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  color: #000000;
+  @include stroke(#fff,2px);
+}
+.view_btn{
+  @apply grid place-items-center  absolute bottom-3 w-[130px] h-10 cursor-pointer;
+  background: rgba(255, 255, 255, 0.62);
+  backdrop-filter: blur(17px);
+}
