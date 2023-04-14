@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+ul {
+  list-style: url("../../../images/icons/arrow-right-list.svg");
+}
+
+.container {
+  font-family: "Playfair Display";
+}
+.container3 {
+  font-family: "Playfair Display";
+  background: rgba(8, 8, 8, 0.42);
+  backdrop-filter: blur(72px);
+}
+
+.phone , .email {
+  font-family: 'Roboto', sans-serif;
+}

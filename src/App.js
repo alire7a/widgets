@@ -18,6 +18,16 @@ import InstagramS3C from "./components/Instagram/Classic/Instagram-S3-C";
 import InstagramS1M from "./components/Instagram/Modern/Instagram-S1-M";
 import InstagramS2M from "./components/Instagram/Modern/Instagram-S2-M";
 import InstagramS3M from "./components/Instagram/Modern/Instagram-S3-M";
+import HeroCardC from "./components/HeroCard/Classic/index";
+import HeroCardM from "./components/HeroCard/Modern/index";
+import HeroCardB from "./components/HeroCard/Boheimian/index";
+import TextOnlyC from "./components/TextOnly/Classic/index";
+import TextOnlyM from "./components/TextOnly/Modern/index";
+import TextOnlyB from "./components/TextOnly/Boheimian/index";
+import ImageOnlyC from "./components/ImageOnly/Classic/index";
+import ImageOnlyM from "./components/ImageOnly/Modern/index";
+import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
+import FooterC from "./components/Footer/Classic";
 
 function App() {
   return (
@@ -47,6 +57,20 @@ function App() {
         <InstagramS1M/>
         <InstagramS2M/>
         <InstagramS3M/>
+
+        <HeroCardC />
+        <HeroCardM />
+        <HeroCardB />
+
+        <ImageOnlyC />
+        <ImageOnlyM />
+        <ImageOnlyB />
+
+        <TextOnlyC />
+        <TextOnlyM />
+        <TextOnlyB />
+
+        <FooterC />
     </div>
 
 
