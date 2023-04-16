@@ -18,6 +18,9 @@ import InstagramS3C from "./components/Instagram/Classic/Instagram-S3-C";
 import InstagramS1M from "./components/Instagram/Modern/Instagram-S1-M";
 import InstagramS2M from "./components/Instagram/Modern/Instagram-S2-M";
 import InstagramS3M from "./components/Instagram/Modern/Instagram-S3-M";
+import ContactUsC from "./components/ContactUs/Classic/index";
+import ContactUsM from "./components/ContactUs/Modern";
+import ContactUsB from "./components/ContactUs/Boheimian";
 import HeroCardC from "./components/HeroCard/Classic/index";
 import HeroCardM from "./components/HeroCard/Modern/index";
 import HeroCardB from "./components/HeroCard/Boheimian/index";
@@ -28,14 +31,17 @@ import ImageOnlyC from "./components/ImageOnly/Classic/index";
 import ImageOnlyM from "./components/ImageOnly/Modern/index";
 import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
 import FooterC from "./components/Footer/Classic";
+import FooterM from "./components/Footer/Modern";
+import FooterB from "./components/Footer/Boheimain";
+
 
 function App() {
   return (
     <div className="App flex flex-col gap-20">
 
-      {/*<Style1Cardview/>*/}
-      {/*<Style2Cardview/>*/}
-      {/*<Style3Cardview/>*/}
+      <Style1Cardview/>
+      <Style2Cardview/>
+      <Style3Cardview/>
 
       <CitiesS1C/>
       <CitiesS2C/>
@@ -58,6 +64,10 @@ function App() {
         <InstagramS2M/>
         <InstagramS3M/>
 
+        <ContactUsC />
+        <ContactUsM />
+        <ContactUsB />
+
         <HeroCardC />
         <HeroCardM />
         <HeroCardB />
@@ -71,6 +81,8 @@ function App() {
         <TextOnlyB />
 
         <FooterC />
+        <FooterM />
+        <FooterB />
     </div>
 
 

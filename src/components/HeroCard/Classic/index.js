@@ -20,7 +20,7 @@ const ContactUsB = () => {
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-col lg:flex-row lg:items-center pr-4 ">
+                <div className="flex flex-col lg:flex-row lg:items-center px-4 ">
                     <div className={`w-full lg:w-auto`}>
                         <img src={house} alt="" className="w-full lg:w-auto " />
                     </div>
@@ -49,17 +49,17 @@ const ContactUsB = () => {
             <section className={style.cardSection}>
                 <div className="mt-16">
                     <div className="w-full border-1 border-t border-[#545650]"></div> {/* fix */}
-                    <div className="flex ml-10 items-center -translate-y-1/2">
-                        <button className={`${style.arrowBtn} mr-10 lg:mr-5`}>
+                    <div className="flex justify-around lg:justify-start lg:ml-10 items-center -translate-y-1/2">
+                        <button className={`${style.arrowBtn}  lg:mr-5`}>
                             <img src={arrowLeft} alt="arrow"/>
                         </button>
                         <h3 className={`font-bold text-[24px] leading-[28px] lg:text-[40px] lg:leading-[46px] px-4 bg-[#fff]`}>Sold Properties</h3>
-                        <button className={`${style.arrowBtn} ml-10 lg:ml-5`}>
+                        <button className={`${style.arrowBtn} lg:ml-5`}>
                             <img src={arrowRight} alt="arrow"/>
                         </button>
                     </div>
                 </div>
-                <div className={`flex flex-col lg:flex-row lg:justify-end items-center lg:p-5 ${style.backgroundSectionFirst}`}>
+                <div className={`flex flex-col h-[400px] lg:h-full lg:flex-row lg:justify-end items-center mx-4 p-0 lg:p-5 ${style.backgroundSection}`}>
                     <div className={`p-4 lg:p-10 mt-60 lg:mt-0 w-full lg:w-auto ${style.content}`}>
                         <h4 className="font-bold text-[24px] leading-[24px] lg:text-[36px] lg:leading-[41px]">11 5152 Canada Way, Burnaby</h4>
                         <h5 className="text-[18px] leading-[26px] lg:text-[24px] lg:leading-[35px]">Keller Williams Realty VanCentral</h5>
@@ -82,9 +82,9 @@ const ContactUsB = () => {
                     </div>
                 </div>
             </section>
-            <section className={style.cardSection}>
-                <div className="flex mx-10 items-center justify-between translate-y-1/2">
-                    <h3 className={`font-bold text-[24px] leading-[28px] lg:text-[64px] lg:leading-[74px] px-4 lg:p-5 bg-[#fff]`}>Sold Properties</h3>
+            <section className={`mt-72 mb-72 lg:my-16 ${style.cardSection}`}>
+                <div className="flex mx-10 items-center justify-between translate-y-1/2 ">
+                    <h3 className={`font-bold text-[24px] leading-[28px] lg:text-[64px] lg:leading-[74px] p-5 bg-[#fff]`}>Sold Properties</h3>
                     <div className="flex">
                         <button className={`${style.arrowBtn} mr-2`}>
                             <img src={arrowLeft} alt="arrow"/>
@@ -94,8 +94,8 @@ const ContactUsB = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`flex flex-col lg:flex-row lg:justify-end py-5 items-center px-4 lg:px-12 ${style.backgroundSectionSecond}`}>
-                    <div className={`p-4 lg:p-10 mt-60 lg:mt-0 w-full lg:w-auto ${style.content}`}>
+                <div className={`flex flex-col h-[400px] lg:h-[500px] lg:flex-row lg:justify-end py-5 items-center mx-4 lg:px-12 ${style.backgroundSection}`}>
+                    <div className={`p-4 lg:p-10 mt-60 lg:mt-[480px] w-full lg:w-auto ${style.content}`}>
                         <h4 className="font-bold text-[24px] leading-[24px] lg:text-[36px] lg:leading-[41px]">11 5152 Canada Way, Burnaby</h4>
                         <h5 className="text-[18px] leading-[26px] lg:text-[24px] lg:leading-[35px]">Keller Williams Realty VanCentral</h5>
                         <div className={`${style.priceTag} w-[246px] h-[53px] lg:w-[278px] lg:h-[61px] mt-10`}>

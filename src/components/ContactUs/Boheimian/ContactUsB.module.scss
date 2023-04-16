@@ -18,6 +18,7 @@ $button-background: rgba(216, 216, 216, 0.4);
     font-family: 'Fasthand', cursive;
   }
   .contactInput {
+    width: 100%;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -72,7 +73,7 @@ $button-background: rgba(216, 216, 216, 0.4);
 
 .helpSection:nth-of-type(2) {
   @include helpSectionFunction($white-background , $black-text , $white-background , $black-text);
-  background: url("../../images/Contact Us.svg") no-repeat center center;
+  background: url("../../../images/Contact Us.svg") no-repeat center center;
 
   form {
     border-right: 1px solid $input-border;

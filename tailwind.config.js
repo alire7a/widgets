@@ -18,6 +18,7 @@ module.exports = {
       "magnolia":"#F4F5FF",
       "gray":{
         "light":"#F8F9FF",
+        "medium":"#E1E1E1",
       },
       "transparent":"transparent",
       "darkBlue": "#374957",
@@ -53,6 +54,7 @@ module.exports = {
     borderRadius: {
       'none': '0',
       "8" : "8px",
+      "10" : "10px",
       "12" : "12px",
       "16" : "16px",
       "full":"100%",

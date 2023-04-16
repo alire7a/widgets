@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+ul {
+  list-style: square;
+}
+
+.container {
+  font-family: 'Crimson Text', serif;
+}
+.container3 {
+  background: rgba(255, 255, 255, 0.51);
+  backdrop-filter: blur(72px);
+}
+
+.phone , .email {
+  font-family: 'Fasthand', cursive;
+}
