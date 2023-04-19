@@ -33,7 +33,7 @@ import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
 import FooterC from "./components/Footer/Classic";
 import FooterM from "./components/Footer/Modern";
 import FooterB from "./components/Footer/Boheimain";
-
+import HeaderC from "./components/Header/Classic/index";
 
 function App() {
   return (
@@ -83,6 +83,8 @@ function App() {
         <FooterC />
         <FooterM />
         <FooterB />
+
+        <HeaderC />
     </div>
 
 
