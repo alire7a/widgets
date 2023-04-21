@@ -3,7 +3,11 @@
 @tailwind utilities;
 
 
-
+.page{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 .layout{
     max-width: 1200px;
@@ -34,4 +38,11 @@
     font-family: 'EB Garamond';
     font-weight: 400;
     font-size: 16px;
+}
+.roboto{
+    font-family: 'Roboto';
+
+}
+.fasthand{
+    font-family: 'Fasthand';
 }
