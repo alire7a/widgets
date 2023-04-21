@@ -38,9 +38,7 @@ function App() {
             <Route path="contact-us-boheimian" element={<ContactUsBoheimian />} />
             <Route path="hero-card-c" element={<HeroCardC />} />
 
-            <Route path="footer" element={
-
-            } />
+            {/*<Route path="footer" element={} />*/}
           </Route>
         </Routes>
       </BrowserRouter>
