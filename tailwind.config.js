@@ -16,10 +16,18 @@ module.exports = {
       "green": '#2BAC76',
       'red': '#CD2553',
       "purple":"#9DA6FA",
+      "magnolia":"#F4F5FF",
       "gray":{
         "light":"#F8F9FF",
+        "medium":"#E1E1E1",
       },
-      "transparent":"transparent"
+      "transparent":"transparent",
+      "darkBlue": "#374957",
+      "blackBg": "#2C2C2C",
+      "grayBorder": "#606060",
+      "darkBorder": "#363853",
+      "imageOnlyBText": "#545650",
+      "footerBgC": "#2C2C2C",
     },
     borderWidth:{
       "1":"1px",
@@ -40,11 +48,14 @@ module.exports = {
       '48': '48px',
       '56': ["56px","64px"],
       '64': '64px',
+      '72': '72px',
+      '96': '96px',
       '120': '120px',
     },
     borderRadius: {
       'none': '0',
       "8" : "8px",
+      "10" : "10px",
       "12" : "12px",
       "16" : "16px",
       "full":"100%",
@@ -63,5 +74,10 @@ module.exports = {
 
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    function ({ addVariant }) {
+      addVariant('child', '& > *');
+      addVariant('child-hover', '& > *:hover');
+    }
+  ],
 }

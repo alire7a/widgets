@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+ul {
+  list-style:  url("../../../images/icons/arrow-right-list.svg");
+}
+
+.container {
+  font-family: "Lato" , Serif;
+}
+.container3 {
+  background: rgba(255, 255, 255, 0.51);
+  backdrop-filter: blur(72px);
+}
+
+.phone , .email {
+  font-family: 'Roboto', sans-serif;
+}
