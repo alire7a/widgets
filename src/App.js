@@ -18,6 +18,20 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <div className={"page bg-red"}>
+            <FooterS1B/>
+            <FooterS2B/>
+            <FooterS3B/>
+
+            <FooterS1M/>
+            <FooterS2M/>
+            <FooterS3M/>
+
+            <FooterS1C/>
+            <FooterS2C/>
+
+            <FooterS3C/>
+          </div>
           <Route path="/" >
             <Route path="contact-us-c" element={<ContactUsC />} />
             <Route path="contact-us-b" element={<ContactUsB />} />
@@ -25,20 +39,7 @@ function App() {
             <Route path="hero-card-c" element={<HeroCardC />} />
 
             <Route path="footer" element={
-              <div className={"page bg-red"}>
-                <FooterS1B/>
-                <FooterS2B/>
-                <FooterS3B/>
 
-                <FooterS1M/>
-                <FooterS2M/>
-                <FooterS3M/>
-
-                <FooterS1C/>
-                <FooterS2C/>
-
-                <FooterS3C/>
-              </div>
             } />
           </Route>
         </Routes>
