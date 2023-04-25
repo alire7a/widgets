@@ -6,7 +6,7 @@ import house from '../../../images/Rectangle 26.svg'
 import arrowDown from '../../../images/icons/Arrow-Down Square blue.svg'
 const ContactUsB = () => {
     return (
-        <div className=" lg:px-[90px] lg:py-[160px]">
+        <div className=" lg:px-[90px] max-w-max mx-auto lg:py-[160px]">
             <section className={`rounded-16 ${style.cardSection}`}>
                 <div className="mt-16">
                     <div className="flex justify-center items-center py-10">
@@ -58,11 +58,11 @@ const ContactUsB = () => {
                         </button>
                     </div>
                 </div>
-                <div className={`flex flex-col h-[400px] lg:h-[500px] lg:flex-row lg:justify-end items-center mt-10 rounded-16 lg:p-5 ${style.backgroundSectionFirst}`}>
+                <div className={`flex flex-col h-[400px] lg:h-[550px] lg:flex-row lg:justify-end items-center mt-10 rounded-16 lg:p-5 ${style.backgroundSectionFirst}`}>
                     <div className={`p-4 lg:p-10 mt-60 lg:mt-0 w-full lg:w-auto lg:rounded-16 flex flex-col items-center ${style.content}`}>
                         <h4 className="font-bold text-[24px] leading-[24px] lg:text-[36px] lg:leading-[41px]">11 5152 Canada Way, Burnaby</h4>
                         <h5 className="text-[18px] leading-[26px] lg:text-[24px] lg:leading-[35px]">Keller Williams Realty VanCentral</h5>
-                        <div className={`${style.priceTag}  mt-10`}>
+                        <div className={`${style.priceTag}  mt-4`}>
                             <span className="font-medium text-[32px] leading-[29px] lg:text-[40px] lg:leading-[37px]">$ 317,000</span>
                             <span className="flex items-center">
                                 <span className={style.off}>20%</span>

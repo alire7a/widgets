@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ee9cb00-2980-40db-a430-946123b98800" name="Changes" comment="">
+    <list default="true" id="291036a5-e28a-4fc6-9ba2-52e4154e5d36" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Boheimian/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Classic/ContactUsC.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Classic/ContactUsC.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Classic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Modern/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Boheimain/FooterB.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Boheimain/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Boheimian/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Classic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Modern/HeroCardM.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Modern/HeroCardM.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Modern/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageOnly/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageOnly/Boheimian/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageOnly/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageOnly/Classic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImageOnly/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageOnly/Modern/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextOnly/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextOnly/Classic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextOnly/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextOnly/Modern/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +33,22 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="fateme" />
+        <entry key="$PROJECT_DIR$" value="fatemeh" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package-lock.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Cities/Classic/Cities-S3-C/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Footer/Boheimian/Footer-S1-B/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/HeroCard/Boheimian/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/HeroCard/Classic/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/ImageOnly/Classic/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Instagram/Modern/Instagram-S3-M/styles.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/tailwind.config.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,20 +59,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/alireza/PhpstormProjects/widgets-qazale/src/components/Footer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/alireza/PhpstormProjects/widgets-qazale/src/components/Footer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Footer" />
@@ -53,8 +82,8 @@
       <recent name="$PROJECT_DIR$/src/components/Instagram/Classic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/media/footer" />
       <recent name="$PROJECT_DIR$/public/media" />
+      <recent name="$PROJECT_DIR$/public/media/footer" />
       <recent name="$PROJECT_DIR$/src/images/footer" />
       <recent name="$PROJECT_DIR$/public/media/Instagram" />
       <recent name="$PROJECT_DIR$/src" />
@@ -78,7 +107,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5ee9cb00-2980-40db-a430-946123b98800" name="Changes" comment="" />
+      <changelist id="291036a5-e28a-4fc6-9ba2-52e4154e5d36" name="Changes" comment="" />
       <created>1678143138154</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -91,6 +120,8 @@
       <workItem from="1681983260627" duration="1393000" />
       <workItem from="1681984708696" duration="6247000" />
       <workItem from="1682032221104" duration="5083000" />
+      <workItem from="1682332485932" duration="618000" />
+      <workItem from="1682428680114" duration="4044000" />
     </task>
     <servers />
   </component>
@@ -117,34 +148,10 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Footer/Classic/Footer-S1-C/index.js</url>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Footer/Classic/Footer-S2-C/index.js</url>
-          <line>5</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Footer/Classic/Footer-S2-C/index.js</url>
-          <line>7</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Footer/Classic/Footer-S2-C/index.js</url>
-          <line>62</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Footer/Classic/Footer-S3-C/index.js</url>
-          <line>65</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Footer/Modern/Footer-S1-M/index.js</url>
-          <line>5</line>
+          <url>file://$PROJECT_DIR$/src/components/ContactUs/Modern/index.js</url>
+          <line>49</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="9" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

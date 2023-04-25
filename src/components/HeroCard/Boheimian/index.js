@@ -19,7 +19,7 @@ const ContactUsB = () => {
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-col lg:flex-row lg:items-center pr-4 ">
+                <div className="max-w-max mx-auto flex flex-col lg:flex-row lg:items-center pr-4 ">
                     <div className={``}>
                         <img src={house} alt="" className="w-full h-full lg:w-auto rounded-tr-[280px] rounded-br-[280px]" />
                     </div>
@@ -61,7 +61,7 @@ const ContactUsB = () => {
                             </button>
                         </div>
                     </div>
-                    <div className={`flex flex-col lg:flex-row lg:justify-end items-center p-4 lg:p-5 ${style.backgroundSectionFirst}`}>
+                    <div className={`max-w-max mx-auto flex flex-col lg:flex-row lg:justify-end items-center p-4 lg:p-5 ${style.backgroundSectionFirst}`}>
                         <div className={`p-4 lg:p-10 mt-60 lg:mt-0 w-full lg:w-auto ${style.content}`}>
                             <h4 className="font-bold text-[24px] leading-[24px] lg:text-[36px] lg:leading-[41px]">11 5152 Canada Way, Burnaby</h4>
                             <h5 className="text-[18px] leading-[26px] lg:text-[24px] lg:leading-[35px]">Keller Williams Realty VanCentral</h5>
@@ -98,7 +98,7 @@ const ContactUsB = () => {
                             </button>
                         </div>
                     </div>
-                    <div className={`flex flex-col lg:flex-row lg:justify-end py-5 items-center px-4 lg:px-12 ${style.backgroundSectionSecond}`}>
+                    <div className={`max-w-max mx-auto  flex flex-col lg:flex-row lg:justify-end py-5 items-center px-4 lg:px-12 ${style.backgroundSectionSecond}`}>
                         <div className={`p-4 lg:p-10 mt-60 lg:mt-0 w-full lg:w-auto ${style.content}`}>
                             <h4 className="font-bold text-[24px] leading-[24px] lg:text-[36px] lg:leading-[41px]">11 5152 Canada Way, Burnaby</h4>
                             <h5 className="text-[18px] leading-[26px] lg:text-[24px] lg:leading-[35px]">Keller Williams Realty VanCentral</h5>

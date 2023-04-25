@@ -2,8 +2,10 @@ import React from 'react';
 import style from "./ContactUsB.module.scss"
 const ContactUsB = () => {
     return (
-        <div className="mx-auto max-w-max lg:px-[90px] lg:py-[120px]">
-            <section className={`flex flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28 ${style.helpSection}`}>
+        <div className="  lg:px-[90px] lg:py-[120px]">
+            <section className={` ${style.helpSection}`}>
+                <div className="max-w-max m-auto flex  flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28">
+
                 <div className="lg:w-[70%]">
                     <h5 className={`font-medium text-[36px] leading-[65px] ${style.help}`}>How can we help...</h5>
                     <p className="text-sm mt-6">Lorem ipsum dolor sit amet consectetur. Fringilla maecenas diam aenean duis sit nunc id integer sed. Egestas dictum elementum massa gravida fusce ullamcorper nisl ut non. Viverra et lectus velit interdum lectus arcu feugiat. Leo enim odio ut imperdiet eget. Dui nunc nec in at amet.
@@ -19,8 +21,11 @@ const ContactUsB = () => {
                     <input type="email" placeholder="Your Message ..." className={style.contactInput}/>
                     <button className={style.contactButton}>SEND</button>
                 </form>
+                </div>
             </section>
             <section className={`w-full px-2  ${style.helpSection}`}>
+                <div className="max-w-max m-auto flex  flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28">
+
                 <form className=" lg:w-[40%] mx-auto flex flex-col px-12 mt-10" action="src/components">
                     <h5 className="text-36 lg:leading-[53px] text-center mb-6">Contact Us</h5>
                     <input type="text" placeholder="Name ..." className={style.contactInput} />
@@ -28,8 +33,11 @@ const ContactUsB = () => {
                     <input type="email" placeholder="Your Message ..." className={style.contactInput}/>
                     <button className={style.contactButton}>SEND</button>
                 </form>
+                </div>
             </section>
-            <section className={`flex flex-col lg:flex-row items-center py-8 px-8 lg:mt-10 lg:py-10 lg:px-28 ${style.helpSection}`}>
+            <section className={` ${style.helpSection}`}>
+                <div className="max-w-max m-auto flex  flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28">
+
                 <form className="w-full flex flex-col lg:ml-10 lg:w-[30%] mt-10 lg:mt-0 order-2 lg:order-1" action="src/components">
                     <h5 className="text-36 lg:leading-[53px]  mb-6">Contact Us</h5>
                     <input type="text" placeholder="Name ..." className={style.contactInput} />
@@ -45,6 +53,7 @@ const ContactUsB = () => {
                         Lorem ipsum dolor sit amet consectetur. Fringilla maecenas diam aenean duis sit nunc id integer sed. Egestas dictum elementum massa gravida fusce ullamcorper nisl ut non. Viverra et lectus velit interdum lectus arcu feugiat. Leo enim odio ut imperdiet eget. Dui nunc nec in at amet.
                         Enim tortor diam etiam quam. Amet nullam vel faucibus quisque aliquam quis cursus. Purus.
                     </p>
+                </div>
                 </div>
             </section>
 

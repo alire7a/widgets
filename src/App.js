@@ -1,3 +1,4 @@
+import React, { Component }  from 'react';
 import logo from './logo.svg';
 import './App.scss';
 import Style3Cardview from "./components/CardViews/Classic/Style3-Cardview";
@@ -21,23 +22,64 @@ import InstagramS3M from "./components/Instagram/Modern/Instagram-S3-M";
 import ContactUsC from "./components/ContactUs/Classic/index";
 import ContactUsM from "./components/ContactUs/Modern";
 import ContactUsB from "./components/ContactUs/Boheimian";
+
 import HeroCardC from "./components/HeroCard/Classic/index";
 import HeroCardM from "./components/HeroCard/Modern/index";
 import HeroCardB from "./components/HeroCard/Boheimian/index";
+
+
 import TextOnlyC from "./components/TextOnly/Classic/index";
 import TextOnlyM from "./components/TextOnly/Modern/index";
-import TextOnlyB from "./components/TextOnly/Boheimian/index";
+import TextOnlyB from "./components/TextOnly/Boheimian";
 import ImageOnlyC from "./components/ImageOnly/Classic/index";
 import ImageOnlyM from "./components/ImageOnly/Modern/index";
 import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
-import FooterC from "./components/Footer/Classic";
-import FooterM from "./components/Footer/Modern";
-import FooterB from "./components/Footer/Boheimain";
+
 import HeaderC from "./components/Header/Classic/index";
+import FooterS1B from "./components/Footer/Boheimian/Footer-S1-B"
+import FooterS2B from "./components/Footer/Boheimian/Footer-S2-B"
+import FooterS3B from "./components/Footer/Boheimian/Footer-S3-B"
+
+
+import FooterS1M from "./components/Footer/Modern/Footer-S1-M"
+import FooterS2M from "./components/Footer/Modern/Footer-S2-M"
+import FooterS3M from "./components/Footer/Modern/Footer-S3-M"
+
+
+import FooterS1C from "./components/Footer/Classic/Footer-S1-C"
+import FooterS2C from "./components/Footer/Classic/Footer-S2-C"
+import FooterS3C from "./components/Footer/Classic/Footer-S3-C"
 
 function App() {
   return (
     <div className="App flex flex-col gap-20">
+        <ContactUsC />
+        <ContactUsM />
+        <ContactUsB />
+
+        <HeroCardC />
+        <HeroCardM />
+        <HeroCardB />
+
+
+        <ImageOnlyC />
+        <ImageOnlyM />
+        <ImageOnlyB />
+
+        <TextOnlyC />
+        <TextOnlyM />
+        <TextOnlyB />
+
+      <FooterS1C/>
+      <FooterS2C/>
+      <FooterS3C/>
+      <FooterS1M/>
+      <FooterS2M/>
+      <FooterS3M/>
+      <FooterS1B/>
+      <FooterS2B/>
+      <FooterS3B/>
+
 
       <Style1Cardview/>
       <Style2Cardview/>
@@ -64,25 +106,13 @@ function App() {
         <InstagramS2M/>
         <InstagramS3M/>
 
-        <ContactUsC />
-        <ContactUsM />
-        <ContactUsB />
 
-        <HeroCardC />
-        <HeroCardM />
-        <HeroCardB />
 
-        <ImageOnlyC />
-        <ImageOnlyM />
-        <ImageOnlyB />
 
-        <TextOnlyC />
-        <TextOnlyM />
-        <TextOnlyB />
 
-        <FooterC />
-        <FooterM />
-        <FooterB />
+
+
+
 
         <HeaderC />
     </div>

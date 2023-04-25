@@ -61,7 +61,9 @@ $input-border: #545650;
   font-size: 24px;
   line-height: 27px;
 }
-
+.helpSection{
+  width: 100%;
+}
 .helpSection:nth-of-type(1) {
   @include helpSectionFunction($black-background , $white-text , $white-background , $black-text , $input-background , $white-text);
 }
