@@ -1,6 +1,6 @@
 import React from 'react';
 import s from "./styles.module.scss"
-const Style3Cardview = () => {
+const CardviewS3C = () => {
     const Card = () =>{
         return(
             <div className={"w-full max-w-[400px] relative"}>
@@ -57,4 +57,4 @@ const Style3Cardview = () => {
     );
 };
 
-export default Style3Cardview;
+export default CardviewS3C;

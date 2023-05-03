@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="291036a5-e28a-4fc6-9ba2-52e4154e5d36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/TextImage/Boheimian/TextImage-S3-B/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TextImage/Boheimian/TextImage-S3-B/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_2023_AD,_13_41_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_2023_AD,_13_42_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_2023_AD__13_41__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_20_2023_AD__13_42__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD,_22_55_[Changes]/Rectangle 38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD,_22_55_[Changes]/Rectangle 48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD,_22_55_[Changes]/Rectangle 53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD,_22_55_[Changes]/WATERMARK_TheActualized-04 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD,_22_55_[Changes]/WATERMARK_dark-04 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD,_22_55_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_21_2023_AD__22_55__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_4_21_2023_AD,_22_56_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_4_21_2023_AD__22_56__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Boheimian/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Classic/ContactUsC.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Classic/ContactUsC.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Classic/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ContactUs/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ContactUs/Modern/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Boheimain/FooterB.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Boheimain/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardViews/Classic/Style1-Cardview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardViews/Classic/CardView-S1-C/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardViews/Classic/Style2-Cardview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardViews/Classic/Cardview-S2-C/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardViews/Classic/Style3-Cardview/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardViews/Classic/Cardview-S3-C/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardViews/Classic/Style3-Cardview/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardViews/Classic/Cardview-S3-C/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Classic/HeaderC.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Classic/HeaderC.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Classic/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Boheimian/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Classic/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Modern/HeroCardM.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Modern/HeroCardM.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeroCard/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroCard/Modern/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageOnly/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageOnly/Boheimian/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageOnly/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageOnly/Classic/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageOnly/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageOnly/Modern/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TextOnly/Classic/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextOnly/Classic/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TextOnly/Boheimian/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextOnly/Boheimian/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TextOnly/Modern/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TextOnly/Modern/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,27 +68,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alireza/PhpstormProjects/widgets-qazale/src/components/Footer&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/alireza/PhpstormProjects/widgets-qazale",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/TextImage/Boheimian" />
+      <recent name="$PROJECT_DIR$/src/components/TextImage/Modern" />
+      <recent name="$PROJECT_DIR$/src/components/TextImage/Classic" />
+      <recent name="$PROJECT_DIR$/public/media/firstfold" />
       <recent name="$PROJECT_DIR$/src/components/Footer" />
-      <recent name="$PROJECT_DIR$/src/components/Footer/Modern" />
-      <recent name="$PROJECT_DIR$/src/components/Footer/Classic" />
-      <recent name="$PROJECT_DIR$/src/components/Instagram" />
-      <recent name="$PROJECT_DIR$/src/components/Instagram/Classic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/media" />
@@ -121,7 +130,15 @@
       <workItem from="1681984708696" duration="6247000" />
       <workItem from="1682032221104" duration="5083000" />
       <workItem from="1682332485932" duration="618000" />
-      <workItem from="1682428680114" duration="4044000" />
+      <workItem from="1682428680114" duration="6558000" />
+      <workItem from="1682534016181" duration="973000" />
+      <workItem from="1682614702676" duration="9196000" />
+      <workItem from="1682629006767" duration="436000" />
+      <workItem from="1682639598052" duration="2040000" />
+      <workItem from="1682672693330" duration="6000" />
+      <workItem from="1682687997250" duration="82000" />
+      <workItem from="1683042517135" duration="4324000" />
+      <workItem from="1683145100882" duration="826000" />
     </task>
     <servers />
   </component>
@@ -143,15 +160,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/CardViews/Classic/Style1-Cardview/index.js</url>
+          <url>file://$PROJECT_DIR$/src/components/CardViews/Classic/CardView-S1-C/index.js</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/ContactUs/Modern/index.js</url>
           <line>49</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Header/Classic/index.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/TextImage/Boheimian/TextImage-S2-B/index.js</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

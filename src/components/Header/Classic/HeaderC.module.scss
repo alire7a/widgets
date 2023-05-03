@@ -17,7 +17,7 @@ $type: silver; //change
 header {
   font-family: "Playfair Display", serif;
 
-  .headerBackground {
+  &.headerBackground {
     width: 100%;
     background: url("../../../images/Rectangle 38.png") no-repeat;
     background-size: cover;

@@ -1,9 +1,7 @@
 import React, { Component }  from 'react';
 import logo from './logo.svg';
 import './App.scss';
-import Style3Cardview from "./components/CardViews/Classic/Style3-Cardview";
-import Style1Cardview from "./components/CardViews/Classic/Style1-Cardview";
-import Style2Cardview from "./components/CardViews/Classic/Style2-Cardview";
+
 import CitiesS1C from "./components/Cities/Classic/Cities-S1-C";
 import CitiesS2C from "./components/Cities/Classic/Cities-S2-C";
 import CitiesS3C from "./components/Cities/Classic/Cities-S3-C";
@@ -49,72 +47,95 @@ import FooterS3M from "./components/Footer/Modern/Footer-S3-M"
 import FooterS1C from "./components/Footer/Classic/Footer-S1-C"
 import FooterS2C from "./components/Footer/Classic/Footer-S2-C"
 import FooterS3C from "./components/Footer/Classic/Footer-S3-C"
+import TextImageS1C from "./components/TextImage/Classic/TextImage-S1-C";
+import TextImageS2C from "./components/TextImage/Classic/TextImage-S2-C";
+import TextImageS3C from "./components/TextImage/Classic/TextImage-S3-C";
+import TextImageS1M from "./components/TextImage/Modern/TextImage-S1-M";
+import TextImageS2M from "./components/TextImage/Modern/TextImage-S2-M";
+import TextImageS3M from "./components/TextImage/Modern/TextImage-S3-M";
+import TextImageS1B from "./components/TextImage/Boheimian/TextImage-S1-B";
+import TextImageS2B from "./components/TextImage/Boheimian/TextImage-S2-B";
+import TextImageS3B from "./components/TextImage/Boheimian/TextImage-S3-B";
+import CardviewS1C from "./components/CardViews/Classic/CardView-S1-C";
+import CardviewS2C from "./components/CardViews/Classic/Cardview-S2-C";
+import CardviewS3C from "./components/CardViews/Classic/Cardview-S3-C";
 
 function App() {
   return (
     <div className="App flex flex-col gap-20">
-        <ContactUsC />
-        <ContactUsM />
-        <ContactUsB />
+        {/*<TextImageS1C/>*/}
+        {/*<TextImageS2C/>*/}
+        {/*<TextImageS3C/>*/}
+        {/*<TextImageS1M/>*/}
+        {/*<TextImageS2M/>*/}
+        {/*<TextImageS3M/>*/}
+        {/*<TextImageS1B/>*/}
+        {/*<TextImageS2B/>*/}
+        {/*<TextImageS3B/>*/}
 
-        <HeroCardC />
-        <HeroCardM />
-        <HeroCardB />
+      {/*  <ContactUsC />*/}
+      {/*  <ContactUsM />*/}
+      {/*  <ContactUsB />*/}
 
-
-        <ImageOnlyC />
-        <ImageOnlyM />
-        <ImageOnlyB />
-
-        <TextOnlyC />
-        <TextOnlyM />
-        <TextOnlyB />
-
-      <FooterS1C/>
-      <FooterS2C/>
-      <FooterS3C/>
-      <FooterS1M/>
-      <FooterS2M/>
-      <FooterS3M/>
-      <FooterS1B/>
-      <FooterS2B/>
-      <FooterS3B/>
+      {/*  <HeroCardC />*/}
+      {/*  <HeroCardM />*/}
+      {/*  <HeroCardB />*/}
 
 
-      <Style1Cardview/>
-      <Style2Cardview/>
-      <Style3Cardview/>
+      {/*  <ImageOnlyC />*/}
+      {/*  <ImageOnlyM />*/}
+      {/*  <ImageOnlyB />*/}
 
-      <CitiesS1C/>
-      <CitiesS2C/>
-      <CitiesS3C/>
-      {/**/}
-        <CitiesS1M/>
-        <CitiesS2M/>
-        <CitiesS3M/>
+      {/*  <TextOnlyC />*/}
+      {/*  <TextOnlyM />*/}
+      {/*  <TextOnlyB />*/}
 
-        <CitiesS1B/>
-        <CitiesS2B/>
-        <CitiesS3B/>
-
-
-        <InstagramS1C/>
-        <InstagramS2C/>
-        <InstagramS3C/>
-
-        <InstagramS1M/>
-        <InstagramS2M/>
-        <InstagramS3M/>
+      {/*<FooterS1C/>*/}
+      {/*<FooterS2C/>*/}
+      {/*<FooterS3C/>*/}
+      {/*<FooterS1M/>*/}
+      {/*<FooterS2M/>*/}
+      {/*<FooterS3M/>*/}
+      {/*<FooterS1B/>*/}
+      {/*<FooterS2B/>*/}
+      {/*<FooterS3B/>*/}
 
 
 
+      {/*/!**!/*/}
+      {/*  <CitiesS1M/>*/}
+      {/*  <CitiesS2M/>*/}
+      {/*  <CitiesS3M/>*/}
+
+      {/*  <CitiesS1B/>*/}
+      {/*  <CitiesS2B/>*/}
+      {/*  <CitiesS3B/>*/}
+
+
+      {/*  <InstagramS1C/>*/}
+      {/*  <InstagramS2C/>*/}
+      {/*  <InstagramS3C/>*/}
+
+      {/*  <InstagramS1M/>*/}
+      {/*  <InstagramS2M/>*/}
+      {/*  <InstagramS3M/>*/}
+
+
+        <CardviewS1C/>
+        <CardviewS2C/>
+        <CardviewS3C/>
+
+      {/*  <CitiesS1C/>*/}
+      {/*  <CitiesS2C/>*/}
+      {/*  <CitiesS3C/>*/}
 
 
 
 
 
 
-        <HeaderC />
+      {/*  <HeaderC />*/}
+
     </div>
 
 

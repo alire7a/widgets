@@ -47,7 +47,7 @@ const ContactUsB = () => {
                     </div>
                 </div>
             </section>
-            <div className="lg:px-[90px] lg:py-[120px]">
+            <div className=" lg:py-[120px]">
 
                 <section className={style.cardSection}>
                     <div className="my-16">

@@ -6,13 +6,9 @@ import arrow from "../../../images/icons/arrow-right.svg";
 const HeaderC = () => {
   return (
     <>
-      <header className={`text-white text-center`}>
-        <div
-          className={`lg:max-w-max mx-auto lg:h-[834px] ${styles.headerBackground} p-10`}
-        >
-          <nav
-            className={`w-full lg:px-11 lg:py-[15px] bg-white flex justify-between text-black`}
-          >
+      <header className={`text-white text-center ${styles.headerBackground}`}>
+        <div className={` mx-auto lg:h-[834px]  p-10`}>
+          <nav className={`w-full max-w-max mx-auto lg:px-11 lg:py-[15px] bg-white flex justify-between text-black`}>
             <ul className={`hidden lg:flex list-none items-center child:pr-6`}>
               <li>
                 <img src={logo} alt="logo" />
@@ -70,11 +66,9 @@ const HeaderC = () => {
           </div>
         </div>
       </header>
-      <header className={`text-white text-center`}>
-        <div
-          className={`lg:max-w-max mx-auto lg:h-[834px] ${styles.headerBackground} p-10`}
-        >
-          <nav className={`w-full lg:px-11 lg:py-[15px] flex justify-between`}>
+      <header className={`text-white text-center  ${styles.headerBackground}  `}>
+        <div className={`lg:h-[834px] p-10`}>
+          <nav className={`w-full max-w-max mx-auto lg:px-11 lg:py-[15px] flex justify-between`}>
             <ul className={`hidden lg:flex list-none items-center child:pr-6`}>
               <li>
                 <img src={logo} alt="logo" />
@@ -132,10 +126,10 @@ const HeaderC = () => {
           </div>
         </div>
       </header>
-      <header className={`text-white text-center`}>
-        <div
-          className={`lg:max-w-max mx-auto lg:h-[834px] ${styles.headerBackground} p-10`}
-        >
+      <header className={`text-white relative text-center ${styles.headerBackground}`}>
+        <div className="absolute z-0 inset-0 bg-black opacity-50">
+        </div>
+        <div className={`relative z-10 lg:h-[834px]  p-10`}>
           <nav className={`w-full lg:px-11 lg:py-[15px] `}>
             <img src={logo} alt="logo" className={`mx-auto`} />
             <ul

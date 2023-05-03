@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Style2Cardview = () => {
+const CardviewS2C = () => {
     const Card = () =>{
         return(
             <div className={"w-full max-w-[400px] relative"}>
@@ -49,9 +49,8 @@ const Style2Cardview = () => {
     return (
         <div className={"w-full grid sm:grid-cols-2 gap-4 p-4 flex-wrap"}>
             <Card/>
-
         </div>
     );
 };
 
-export default Style2Cardview;
+export default CardviewS2C;

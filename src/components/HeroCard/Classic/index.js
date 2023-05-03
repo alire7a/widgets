@@ -6,7 +6,7 @@ import house from '../../../images/Rectangle 26.svg'
 import arrowDown from '../../../images/icons/Arrow - Down Square.svg'
 const ContactUsB = () => {
     return (
-        <div className="lg:px-[90px] lg:py-[120px]">
+        <div className=" lg:py-[120px]">
             <section className={style.cardSection}>
                 <div className="mt-16">
                     <div className="w-full border-1 border-t border-[#545650]"></div>

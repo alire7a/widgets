@@ -6,7 +6,7 @@ import house from '../../../images/Rectangle 26.svg'
 import arrowDown from '../../../images/icons/Arrow-Down Square blue.svg'
 const ContactUsB = () => {
     return (
-        <div className=" lg:px-[90px] max-w-max mx-auto lg:py-[160px]">
+        <div className="w-full max-w-max mx-auto lg:py-[160px]">
             <section className={`rounded-16 ${style.cardSection}`}>
                 <div className="mt-16">
                     <div className="flex justify-center items-center py-10">

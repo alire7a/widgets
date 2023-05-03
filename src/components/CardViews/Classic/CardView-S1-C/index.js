@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Style1Cardview = () => {
+const CardviewS1C = () => {
     const Card = () =>{
         return(
             <div className={"w-full max-w-[400px]"}>
@@ -46,4 +46,4 @@ const Style1Cardview = () => {
     );
 };
 
-export default Style1Cardview;
+export default CardviewS1C;
