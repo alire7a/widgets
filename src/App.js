@@ -34,6 +34,7 @@ import ImageOnlyM from "./components/ImageOnly/Modern/index";
 import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
 
 import HeaderC from "./components/Header/Classic/index";
+import HeaderM from "./components/Header/Modern/index";
 import FooterS1B from "./components/Footer/Boheimian/Footer-S1-B"
 import FooterS2B from "./components/Footer/Boheimian/Footer-S2-B"
 import FooterS3B from "./components/Footer/Boheimian/Footer-S3-B"
@@ -121,9 +122,9 @@ function App() {
       {/*  <InstagramS3M/>*/}
 
 
-        <CardviewS1C/>
-        <CardviewS2C/>
-        <CardviewS3C/>
+        {/*<CardviewS1C/>*/}
+        {/*<CardviewS2C/>*/}
+        {/*<CardviewS3C/>*/}
 
       {/*  <CitiesS1C/>*/}
       {/*  <CitiesS2C/>*/}
@@ -134,7 +135,8 @@ function App() {
 
 
 
-      {/*  <HeaderC />*/}
+        {/*<HeaderC />*/}
+        <HeaderM />
 
     </div>
 
