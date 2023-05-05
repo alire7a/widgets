@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.scss';
 
 import CitiesS1C from "./components/Cities/Classic/Cities-S1-C";
-import CitiesS2C from "./components/Cities/Classic/Cities-S2-C";
+import CitiesS2C from "./components/Cities/Classic/Cities-S2git ad-C";
 import CitiesS3C from "./components/Cities/Classic/Cities-S3-C";
 import CitiesS1M from "./components/Cities/Modern/Cities-S1-M";
 import CitiesS2M from "./components/Cities/Modern/Cities-S2-M";
@@ -34,6 +34,7 @@ import ImageOnlyM from "./components/ImageOnly/Modern/index";
 import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
 
 import HeaderC from "./components/Header/Classic/index";
+import HeaderM from "./components/Header/Modern/index";
 import FooterS1B from "./components/Footer/Boheimian/Footer-S1-B"
 import FooterS2B from "./components/Footer/Boheimian/Footer-S2-B"
 import FooterS3B from "./components/Footer/Boheimian/Footer-S3-B"
@@ -121,9 +122,9 @@ function App() {
       {/*  <InstagramS3M/>*/}
 
 
-        <CardviewS1C/>
-        <CardviewS2C/>
-        <CardviewS3C/>
+        {/*<CardviewS1C/>*/}
+        {/*<CardviewS2C/>*/}
+        {/*<CardviewS3C/>*/}
 
       {/*  <CitiesS1C/>*/}
       {/*  <CitiesS2C/>*/}
@@ -134,7 +135,8 @@ function App() {
 
 
 
-      {/*  <HeaderC />*/}
+        {/*<HeaderC />*/}
+        <HeaderM />
 
     </div>
 
