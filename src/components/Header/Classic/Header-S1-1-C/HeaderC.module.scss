@@ -19,16 +19,11 @@ header {
 
   &.headerBackground {
     width: 100%;
+    background: url("../../../../images/Rectangle 38.png") no-repeat;
     background-size: cover;
   }
 
   .des {
     font-family: "Roboto", sans-serif;
-  }
-
-   .rightBackground{
-     background: url("../../../images/Group 56.jpg") no-repeat;
-     background-size: cover;
-     background-position: center;
   }
 }

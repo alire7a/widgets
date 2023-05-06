@@ -32,8 +32,7 @@ import ImageOnlyC from "./components/ImageOnly/Classic/index";
 import ImageOnlyM from "./components/ImageOnly/Modern/index";
 import ImageOnlyB from "./components/ImageOnly/Boheimian/index";
 
-import HeaderC from "./components/Header/Classic/index";
-import HeaderM from "./components/Header/Modern/index";
+
 import FooterS1B from "./components/Footer/Boheimian/Footer-S1-B"
 import FooterS2B from "./components/Footer/Boheimian/Footer-S2-B"
 import FooterS3B from "./components/Footer/Boheimian/Footer-S3-B"
@@ -60,12 +59,21 @@ import CardviewS1C from "./components/CardViews/Classic/CardView-S1-C";
 import CardviewS2C from "./components/CardViews/Classic/Cardview-S2-C";
 import CardviewS3C from "./components/CardViews/Classic/Cardview-S3-C";
 import CitiesS2C from "./components/Cities/Classic/Cities-S2-C";
+import HeaderS11C from "./components/Header/Classic/Header-S1-1-C";
+import HeaderS12C from "./components/Header/Classic/Header-S1-2-C";
+import HeaderS13C from "./components/Header/Classic/Header-S1-3-C";
+import HeaderS2C from "./components/Header/Classic/Header-S2-C";
+
+
 
 function App() {
   return (
     <div className="App flex flex-col gap-20">
-        <HeaderC />
-        <HeaderM />
+
+        <HeaderS11C/>
+        <HeaderS12C/>
+        <HeaderS13C/>
+        <HeaderS2C/>
 
         <TextImageS1C/>
         <TextImageS2C/>
