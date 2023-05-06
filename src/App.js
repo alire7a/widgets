@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.scss';
 
 import CitiesS1C from "./components/Cities/Classic/Cities-S1-C";
-import CitiesS2C from "./components/Cities/Classic/Cities-S2git ad-C";
 import CitiesS3C from "./components/Cities/Classic/Cities-S3-C";
 import CitiesS1M from "./components/Cities/Modern/Cities-S1-M";
 import CitiesS2M from "./components/Cities/Modern/Cities-S2-M";
@@ -60,83 +59,86 @@ import TextImageS3B from "./components/TextImage/Boheimian/TextImage-S3-B";
 import CardviewS1C from "./components/CardViews/Classic/CardView-S1-C";
 import CardviewS2C from "./components/CardViews/Classic/Cardview-S2-C";
 import CardviewS3C from "./components/CardViews/Classic/Cardview-S3-C";
+import CitiesS2C from "./components/Cities/Classic/Cities-S2-C";
 
 function App() {
   return (
     <div className="App flex flex-col gap-20">
-        {/*<TextImageS1C/>*/}
-        {/*<TextImageS2C/>*/}
-        {/*<TextImageS3C/>*/}
-        {/*<TextImageS1M/>*/}
-        {/*<TextImageS2M/>*/}
-        {/*<TextImageS3M/>*/}
-        {/*<TextImageS1B/>*/}
-        {/*<TextImageS2B/>*/}
+        <HeaderC />
+        <HeaderM />
+
+        <TextImageS1C/>
+        <TextImageS2C/>
+        <TextImageS3C/>
+        <TextImageS1M/>
+        <TextImageS2M/>
+        <TextImageS3M/>
+        <TextImageS1B/>
+        <TextImageS2B/>
         {/*<TextImageS3B/>*/}
 
-      {/*  <ContactUsC />*/}
-      {/*  <ContactUsM />*/}
-      {/*  <ContactUsB />*/}
+        <ContactUsC />
+        <ContactUsM />
+        <ContactUsB />
 
-      {/*  <HeroCardC />*/}
-      {/*  <HeroCardM />*/}
-      {/*  <HeroCardB />*/}
-
-
-      {/*  <ImageOnlyC />*/}
-      {/*  <ImageOnlyM />*/}
-      {/*  <ImageOnlyB />*/}
-
-      {/*  <TextOnlyC />*/}
-      {/*  <TextOnlyM />*/}
-      {/*  <TextOnlyB />*/}
-
-      {/*<FooterS1C/>*/}
-      {/*<FooterS2C/>*/}
-      {/*<FooterS3C/>*/}
-      {/*<FooterS1M/>*/}
-      {/*<FooterS2M/>*/}
-      {/*<FooterS3M/>*/}
-      {/*<FooterS1B/>*/}
-      {/*<FooterS2B/>*/}
-      {/*<FooterS3B/>*/}
+        <HeroCardC />
+        <HeroCardM />
+        <HeroCardB />
 
 
+        <ImageOnlyC />
+        <ImageOnlyM />
+        <ImageOnlyB />
 
-      {/*/!**!/*/}
-      {/*  <CitiesS1M/>*/}
-      {/*  <CitiesS2M/>*/}
-      {/*  <CitiesS3M/>*/}
+        <TextOnlyC />
+        <TextOnlyM />
+        <TextOnlyB />
 
-      {/*  <CitiesS1B/>*/}
-      {/*  <CitiesS2B/>*/}
-      {/*  <CitiesS3B/>*/}
-
-
-      {/*  <InstagramS1C/>*/}
-      {/*  <InstagramS2C/>*/}
-      {/*  <InstagramS3C/>*/}
-
-      {/*  <InstagramS1M/>*/}
-      {/*  <InstagramS2M/>*/}
-      {/*  <InstagramS3M/>*/}
-
-
-        {/*<CardviewS1C/>*/}
-        {/*<CardviewS2C/>*/}
-        {/*<CardviewS3C/>*/}
-
-      {/*  <CitiesS1C/>*/}
-      {/*  <CitiesS2C/>*/}
-      {/*  <CitiesS3C/>*/}
+      <FooterS1C/>
+      <FooterS2C/>
+      <FooterS3C/>
+      <FooterS1M/>
+      <FooterS2M/>
+      <FooterS3M/>
+      <FooterS1B/>
+      <FooterS2B/>
+      <FooterS3B/>
 
 
+
+      {/**/}
+        <CitiesS1M/>
+        <CitiesS2M/>
+        <CitiesS3M/>
+
+        <CitiesS1B/>
+        <CitiesS2B/>
+        <CitiesS3B/>
+
+
+        <InstagramS1C/>
+        <InstagramS2C/>
+        <InstagramS3C/>
+
+        <InstagramS1M/>
+        <InstagramS2M/>
+        <InstagramS3M/>
+
+
+        <CardviewS1C/>
+        <CardviewS2C/>
+        <CardviewS3C/>
+
+        <CitiesS1C/>
+        <CitiesS2C/>
+        <CitiesS3C/>
 
 
 
 
-        {/*<HeaderC />*/}
-        <HeaderM />
+
+
+
 
     </div>
 
