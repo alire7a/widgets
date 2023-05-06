@@ -36,7 +36,7 @@ const HeaderM = () => {
             </div>
           </nav>
           <div className={`h-[90%] mx-auto flex-col lg:flex-row flex mt-4 lg:mt-[32px] justify-between`}>
-             <div className="text-black order-2 lg:order-1 pt-10 lg:pt-[70px] lg:w-[50%] lg:pl-[80px] lg:pr-[50px] text-left h-[100%]">
+             <div className="text-black order-2 lg:order-1 pt-10 lg:pt-[70px] lg:w-[50%] lg:pl-[80px] px-4 lg:pr-[50px] text-left h-[100%]">
                 <div className={" mb-[42px] border-l-[20px] pl-[20px]"}>
                     <h1 className="font-bold text-40  lg:text-[53px] tracking-[.20em] letter-spa">FIRST FOLD</h1>
                     <div className="desc font-normal lg:hidden roboto">
