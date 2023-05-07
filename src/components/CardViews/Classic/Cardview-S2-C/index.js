@@ -1,9 +1,41 @@
 import React from 'react';
+import {Swiper, SwiperSlide} from "swiper/react";
 
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 const CardviewS2C = () => {
+    const sliderConfig = {
+        slidesPerView:1,
+        initialSlide:3,
+
+        navigation: {
+            nextEl: ".nextTarget",
+            prevEl: ".prevTarget",
+        },
+        speed:1100,
+        breakpoints: {
+            660: {
+                slidesPerView: 2,
+                spaceBetween:20,
+            },
+            1000: {
+                centeredSlides:true,
+                centeredSlidesBounds: true,
+                slidesPerView:3,
+            },
+            1600: {
+                centeredSlides:true,
+                centeredSlidesBounds: true,
+                slidesPerView:5,
+            },
+
+        },
+    };
     const Card = () =>{
         return(
-            <div className={"w-full max-w-[400px] relative"}>
+            <div className={"w-full  relative"}>
                 <img className={"w-full  h-[500px]"} src="/media/cardview/1.png" alt=""/>
                 <div className="content p-4 absolute bottom-2 left-2 right-2 bg-white ">
                     <div className="detail absolute right-0 w-[110px] h-10 bg-black top-20 text-white grid place-items-center">
@@ -46,10 +78,39 @@ const CardviewS2C = () => {
             </div>
         )
     }
+
     return (
-        <div className={"w-full grid sm:grid-cols-2 gap-4 p-4 flex-wrap"}>
-            <Card/>
+    <div className="card-view-container">
+
+        <div className="card-view w-full ">
+            <Swiper
+                {...sliderConfig}
+                className="mySwiper mx-auto w-full relative"
+            >
+                <SwiperSlide>
+                    <Card/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Card/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Card/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Card/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Card/>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Card/>
+                </SwiperSlide>
+
+            </Swiper>
+
         </div>
+
+    </div>
     );
 };
 
