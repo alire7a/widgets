@@ -3,7 +3,7 @@ import styles from "./HeaderC.module.scss";
 import logo from "../../../../images/WATERMARK_TheActualized-04 1 (1).svg";
 import arrow from "../../../../images/icons/arrow-right.svg";
 
-const HeaderM = () => {
+const HeaderS2C = () => {
   return (
     <>
       <header className={`text-white text-center ${styles.headerBackground}`}>
@@ -77,4 +77,4 @@ const HeaderM = () => {
   );
 };
 
-export default HeaderM;
+export default HeaderS2C;

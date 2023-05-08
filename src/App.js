@@ -63,18 +63,20 @@ import HeaderS11C from "./components/Header/Classic/Header-S1-1-C";
 import HeaderS12C from "./components/Header/Classic/Header-S1-2-C";
 import HeaderS13C from "./components/Header/Classic/Header-S1-3-C";
 import HeaderS2C from "./components/Header/Classic/Header-S2-C";
+import HeaderS3C from "./components/Header/Classic/Header-S3-C";
 
 
 
 function App() {
   return (
     <div className="App flex flex-col gap-20">
-        <CardviewS2C/>
+        {/*<CardviewS2C/>*/}
 
-      {/*  <HeaderS11C/>*/}
-      {/*  <HeaderS12C/>*/}
-      {/*  <HeaderS13C/>*/}
-      {/*  <HeaderS2C/>*/}
+        <HeaderS11C/>
+        <HeaderS12C/>
+        <HeaderS13C/>
+        <HeaderS3C/>
+        <HeaderS2C/>
 
       {/*  <TextImageS1C/>*/}
       {/*  <TextImageS2C/>*/}

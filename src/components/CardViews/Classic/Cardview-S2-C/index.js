@@ -87,9 +87,11 @@ const CardviewS2C = () => {
                 {...sliderConfig}
                 className="mySwiper mx-auto w-full relative"
             >
+
                 <SwiperSlide>
                     <Card/>
                 </SwiperSlide>
+
                 <SwiperSlide>
                     <Card/>
                 </SwiperSlide>
