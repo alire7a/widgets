@@ -52,22 +52,22 @@ const HeaderS12C = () => {
                         </button>
                     </div>
                     <div className={`flex justify-center w-full lg:w-[40%]  mx-auto justify-between text-left  mt-16`}>
-                            <span className={`flex flex-col mr-4 `}>
-                        <span className={`text-24 leading-[32px]`}>
-                          Properties Sold
-                        </span>
-                        <span className={`font-black lg:font-36 leading-[48px]`}>
-                          157 <span className={`mb-1`}>K</span>
-                        </span>
-                      </span>
-                            <span className={`flex flex-col`}>
-                <span className={`text-24 leading-[32px]`}>
-                  Properties Registered
-                </span>
-                <span className={`font-black lg:font-36 leading-[48px]`}>
-                  157 <span className={`mb-1`}>K</span>
-                </span>
-              </span>
+                      <span className={`flex flex-col mr-4 `}>
+                                    <span className={`text-16 lg:text-24 leading-[32px]`}>
+                                      Properties Sold
+                                    </span>
+                                    <span className={`font-black text-20 lg:text-36 leading-[48px]`}>
+                                      157 <span className={`mb-1`}>K</span>
+                                    </span>
+                                  </span>
+                                   <span className={`flex flex-col mr-4 `}>
+                                    <span className={`text-16 lg:text-24 leading-[32px]`}>
+                                      Properties Sold
+                                    </span>
+                                    <span className={`font-black text-20 lg:text-36 leading-[48px]`}>
+                                      157 <span className={`mb-1`}>K</span>
+                                    </span>
+                                  </span>
                     </div>
                 </div>
             </div>

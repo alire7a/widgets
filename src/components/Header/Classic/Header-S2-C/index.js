@@ -11,7 +11,7 @@ const HeaderS2C = () => {
           <nav className={`w-full mx-auto bg-black py-4 px-7 lg:px-11 lg:py-[15px]`}>
             <div className="flex max-w-max mx-auto text-white items-center">
                 <img className={"w-16 "} src="/media/footer/WATERMARK_TheActualized-04 1.png" alt=""/>
-                <ul className={`hidden lg:flex list-none items-center child:pr-6`}>
+                <ul className={`hidden  lg:flex list-none items-center child:pr-6`}>
                     <li>
                         <img src={logo} alt="logo" />
                     </li>
@@ -35,8 +35,8 @@ const HeaderS2C = () => {
                 </div>
             </div>
           </nav>
-          <div className={`h-[90%] mx-auto flex-col lg:flex-row flex mt-4 lg:mt-[32px] justify-between`}>
-             <div className="text-black order-2 lg:order-1 pt-10 lg:pt-[70px] lg:w-[50%] lg:pl-[80px] px-4 lg:pr-[50px] text-left h-[100%]">
+          <div className={`max-w-max mx-auto flex-col lg:flex-row flex mt-4 lg:mt-[32px] justify-between`}>
+             <div className="text-black order-2 lg:order-1 pt-10 lg:pt-[70px] lg:w-[50%]  px-4 lg:pr-[50px] text-left h-[100%]">
                 <div className={" mb-[42px] border-l-[20px] pl-[20px]"}>
                     <h1 className="font-bold text-40  lg:text-[53px] tracking-[.20em] letter-spa">FIRST FOLD</h1>
                     <div className="desc font-normal lg:hidden roboto">
