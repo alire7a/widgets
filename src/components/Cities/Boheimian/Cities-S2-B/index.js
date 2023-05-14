@@ -1,5 +1,5 @@
 import React from 'react';
-import "./styles.scss"
+import "./styles.css"
 const CitiesS2B = () => {
     const City = ({second})=>{
         return(

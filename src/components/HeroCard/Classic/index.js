@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './HeroCardC.scss'
+import style from './HeroCardC.css'
 import arrowLeft from '../../../images/icons/arrow-up.svg'
 import arrowRight from '../../../images/icons/arrow-right.svg'
 import house from '../../../images/Rectangle 26.svg'

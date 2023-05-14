@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./ImageOnlyB.scss";
+import style from "./ImageOnlyB.css";
 import image from "../../../images/Rectangle 26.png"
 import image2 from "../../../images/Footer (2).svg"
 const ImageOnlyB = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import style from "./TextOnlyM.module.scss"
-const TextOnlyC = () => {
+import style from "./TextOnlyM.css"
+const TextOnlyM = () => {
     return (
         <div className={` lg:py-[120px] textonly-m`}>
             <div className="w-full bg-purple text-center mb-16 py-11 text-white px-8 lg:px-0 rounded-16">
@@ -46,4 +46,4 @@ const TextOnlyC = () => {
     );
 };
 
-export default TextOnlyC;
+export default TextOnlyM;

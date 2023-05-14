@@ -1,5 +1,5 @@
 import React from 'react';
-import  "./HeaderC.scss";
+import  "./HeaderC.css";
 import logo from "../../../../images/WATERMARK_TheActualized-04 1 (1).svg";
 import arrow from "../../../../images/icons/arrow-right.svg";
 

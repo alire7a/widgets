@@ -1,5 +1,5 @@
 import React from 'react';
-import  "./styles.scss"
+import  "./styles.css"
 const TextImageS2M = () => {
     return (
         <div className={"px-4 relative lg:pb-20 lg:pt-[350px] lg:px-0"}>

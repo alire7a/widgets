@@ -1,8 +1,8 @@
 import React from 'react';
-import style from "./ImageOnlyM.scss"
+import style from "./ImageOnlyM.css"
 const ImageOnlyM = () => {
     return (
-        <div className={"lg:px-[90px] lg:py-[120px] overflow-hidden"}>
+        <div className={"ImageOnlyM lg:px-[90px] lg:py-[120px] overflow-hidden"}>
             <div className={`relative max-w-max mx-auto flex justify-center items-center h-[590px] lg:h-[400px] rounded-16 `}>
                 <h1 className={"font-medium z-10 relative text-darkBorder text-24 leading-[32px] lg:text-40 lg:leading-[53px] tracking-[0.4em]"}>Beyond Design.</h1>
                 <img className={"w-full h-full absolute inset-0  object-cover"} src="/media/text-only.png" alt=""/>

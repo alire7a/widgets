@@ -1,8 +1,8 @@
 import React from 'react';
-import s from "./styles.scss"
+import s from "./styles.css"
 const TextImageS1B = () => {
     return (
-        <div className={"px-4 relative lg:px-20 TextImage-S1-B"}>
+        <div className={"TextImageS1B px-4 relative lg:px-20 TextImage-S1-B"}>
 
             <div className={`TextImage-S1-B relative max-w-max mx-auto   lg:flex lg:items-end gap-10   `}>
                 <div className="border-1 -z-10 border-[#CACACA]/80 w-[600px]  rounded-l-[260px] bottom-0 h-[400px] order-3 hidden lg:block absolute right-0"></div>

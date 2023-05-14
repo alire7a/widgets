@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./TextOnlyB.scss"
+import style from "./TextOnlyB.css"
 const TextOnlyC = () => {
     return (
         <div className={`lg:px-[90px] lg:py-[120px] textonly-b-1`}>

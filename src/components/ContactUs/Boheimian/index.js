@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./ContactUsB.scss"
+import style from "./ContactUsB.css"
 const ContactUsB = () => {
     return (
         <div className="ContactUsB  lg:px-[90px] lg:py-[120px]">

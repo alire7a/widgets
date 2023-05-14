@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./style.scss"
+import s from "./style.css"
 const FooterS1C = () => {
     return (
         <div className={"FooterS1C"}>

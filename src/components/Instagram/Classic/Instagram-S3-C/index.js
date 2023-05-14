@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./styles.scss"
+import s from "./styles.css"
 const InstagramS3C = () => {
     const Item = ()=>{
         return(

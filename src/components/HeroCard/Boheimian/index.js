@@ -1,12 +1,12 @@
 import React from 'react';
-import './HeroCardB.scss'
+import './HeroCardB.css'
 import arrowLeft from '../../../images/icons/arrow-up.svg'
 import arrowRight from '../../../images/icons/arrow-right.svg'
 import house from '../../../images/Rectangle 2.svg'
 import arrowDown from '../../../images/icons/Arrow - Down Square.svg'
-const ContactUsB = () => {
+const HeroCardB = () => {
     return (
-        <div className={"ContactUsB"}>
+        <div className={"HeroCardB"}>
             <section className={"cardSection"}>
                 <div className="my-16">
                     <div className="flex justify-center items-center ">
@@ -141,4 +141,4 @@ const ContactUsB = () => {
     );
 };
 
-export default ContactUsB;
+export default HeroCardB;

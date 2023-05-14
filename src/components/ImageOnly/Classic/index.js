@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./ImageOnlyC.scss"
+import style from "./ImageOnlyC.css"
 const ImageOnlyC = () => {
     return (
         <div className={"w-full lg:px-[90px] lg:py-[120px] overflow-hidden ImageOnlyC"}>
