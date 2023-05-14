@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import logo from './logo.svg';
-import './App.scss';
+import './App.css';
 
 import CitiesS1C from "./components/Cities/Classic/Cities-S1-C";
 import CitiesS3C from "./components/Cities/Classic/Cities-S3-C";
