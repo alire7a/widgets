@@ -1,16 +1,16 @@
 import React from 'react';
-import s from "./styles.module.scss"
+import "./styles.scss"
 const CitiesS3B = () => {
     const City = ()=>{
         return(
             <div className={"relative h-[500px] md:h-[750px] max-w-[450px] m-auto flex justify-center"}>
                 <img className={"w-full h-full object-cover"} src="/media/city/1.png" alt=""/>
 
-                <div className={s.city}>
-                    <div className={s.name}>
+                <div className={"city"}>
+                    <div className={"name"}>
                         NEW YORK
                     </div>
-                    <div className={s.view}>
+                    <div className={"view"}>
                         View City
                     </div>
                 </div>
@@ -21,7 +21,7 @@ const CitiesS3B = () => {
 
     }
     return (
-        <div className={"p-10 grid  lg:gap-20  gap-6 md:grid-cols-3   mb-20"}>
+        <div className={"CitiesS3B p-10 grid  lg:gap-20  gap-6 md:grid-cols-3   mb-20"}>
             <City/>
             <City/>
             <City/>

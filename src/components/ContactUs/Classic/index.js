@@ -1,9 +1,9 @@
 import React from 'react';
-import style from './ContactUsC.module.scss'
+import "./ContactUsC.scss"
 const ContactUsC = () => {
     return (
-        <div className="  lg:py-[120px]">
-            <section className={` ${style.helpSection}`}>
+        <div className="ContactUsC  lg:py-[120px]">
+            <section className={` helpSection`}>
                <div className="max-w-max m-auto flex  flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28">
                    <div className="lg:w-[70%]">
                        <h5 className="text-24 font-medium lg:text-36 lg:leading-[48px]">How can we help...</h5>
@@ -15,15 +15,15 @@ const ContactUsC = () => {
                    </div>
                    <form className="flex flex-col lg:ml-10 lg:w-[30%] mt-10 lg:mt-0" action="src/components">
                        <h5 className="text-24 lg:text-[40px] lg:leading-[53px] text-center mb-6">Contact Us</h5>
-                       <input type="text" placeholder="Name ..." className={style.contactInput} />
-                       <input type="email" placeholder="Email ..." className={style.contactInput}/>
-                       <textarea className={style.contactInput} placeholder="Your Message ..." id="w3review" name="w3review" rows="4" cols="50">
+                       <input type="text" placeholder="Name ..." className={"contactInput"} />
+                       <input type="email" placeholder="Email ..." className={"contactInput"}/>
+                       <textarea className={"contactInput"} placeholder="Your Message ..." id="w3review" name="w3review" rows="4" cols="50">
                         </textarea>
-                       <button className={style.contactButton}>SEND</button>
+                       <button className={"contactButton"}>SEND</button>
                    </form>
                </div>
             </section>
-            <section className={` ${style.helpSection}`}>
+            <section className={` helpSection`}>
                 <div className="max-w-max m-auto flex  flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28">
                     <div className="lg:w-[70%]">
                         <h5 className="text-24 font-medium lg:text-36 lg:leading-[48px]">How can we help...</h5>
@@ -35,24 +35,24 @@ const ContactUsC = () => {
                     </div>
                     <form className="flex flex-col lg:ml-10 lg:w-[30%] mt-10 lg:mt-0" action="src/components">
                     <h5 className="text-24 lg:text-[40px] lg:leading-[53px] text-center mb-6">Contact Us</h5>
-                    <input type="text" placeholder="Name ..." className={style.contactInput} />
-                    <input type="email" placeholder="Email ..." className={style.contactInput}/>
-                    <textarea className={style.contactInput} placeholder="Your Message ..." id="w3review" name="w3review" rows="4" cols="50">
+                    <input type="text" placeholder="Name ..." className={"contactInput"} />
+                    <input type="email" placeholder="Email ..." className={"contactInput"}/>
+                    <textarea className={"contactInput"} placeholder="Your Message ..." id="w3review" name="w3review" rows="4" cols="50">
                         </textarea>
-                    <button className={style.contactButton}>SEND</button>
+                    <button className={"contactButton"}>SEND</button>
                 </form>
                 </div>
             </section>
-            <section className={`${style.helpSection}`}>
+            <section className={`helpSection`}>
                 <div className="max-w-max m-auto flex  flex-col lg:flex-row items-center py-8 px-4 lg:mt-10 lg:py-10 lg:px-28">
 
                     <form className="w-full flex flex-col lg:ml-10 lg:w-[30%] mt-10 lg:mt-0 order-2 lg:order-1" action="src/components">
                         <h5 className="text-24 lg:text-[40px] lg:leading-[53px] text-center mb-6">Contact Us</h5>
-                        <input type="text" placeholder="Name ..." className={style.contactInput} />
-                        <input type="email" placeholder="Email ..." className={style.contactInput}/>
-                        <textarea className={style.contactInput} placeholder="Your Message ..." id="w3review" name="w3review" rows="4" cols="50">
+                        <input type="text" placeholder="Name ..." className={"contactInput"} />
+                        <input type="email" placeholder="Email ..." className={"contactInput"}/>
+                        <textarea className={"contactInput"} placeholder="Your Message ..." id="w3review" name="w3review" rows="4" cols="50">
                             </textarea>
-                        <button className={style.contactButton}>SEND</button>
+                        <button className={"contactButton"}>SEND</button>
                     </form>
                     <div className="w-full lg:w-[70%] border-imageOnlyBText border-b-1 lg:border-b-white lg:border-l-1  lg:ml-16 pb-16 lg:p-16 lg:pr-0 order-1 lg:order-2">
                     <h5 className="text-24 font-medium lg:text-36 lg:leading-[48px]">How can we help...</h5>

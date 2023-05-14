@@ -1,8 +1,8 @@
 import React from 'react';
-import s from "./style.module.scss"
+import s from "./style.scss"
 const FooterS3M = () => {
     return (
-        <div className={s.footer}>
+        <div className={"FooterS3M"}>
             <div className=" f-nav">
 
                 <div className="layout ">

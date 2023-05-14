@@ -1,8 +1,8 @@
 import React from 'react';
-import s from "./style.module.scss"
+import s from "./style.scss"
 const FooterS1M = () => {
     return (
-        <div className={s.footer}>
+        <div className={"FooterS1M"}>
             <div className="footer-main ">
                 <div className="layout relative  flex flex-col lg:flex-row gap-16">
                     <div className="footer-section f-nav">

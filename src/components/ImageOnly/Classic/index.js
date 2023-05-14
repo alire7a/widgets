@@ -1,8 +1,8 @@
 import React from 'react';
-import style from "./ImageOnlyC.module.scss"
+import style from "./ImageOnlyC.scss"
 const ImageOnlyC = () => {
     return (
-        <div className={"w-full lg:px-[90px] lg:py-[120px] overflow-hidden"}>
+        <div className={"w-full lg:px-[90px] lg:py-[120px] overflow-hidden ImageOnlyC"}>
             <div className={`relative max-w-max mx-auto flex justify-center items-center h-[590px] lg:h-[400px] `}>
                 <img className={"w-full h-full absolute inset-0  object-cover"} src="/media/text-only.png" alt=""/>
 

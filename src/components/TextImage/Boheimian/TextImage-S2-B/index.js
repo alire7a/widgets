@@ -1,10 +1,10 @@
 import React from 'react';
-import s from "./styles.module.scss"
+import s from "./styles.scss"
 const TextImageS2B = () => {
     return (
         <div className={" relative lg:px-20"}>
 
-            <div className={`${s.container} relative max-w-max mx-auto lg:items-center  lg:flex gap-10   `}>
+            <div className={`TextImage-S2-B relative max-w-max mx-auto lg:items-center  lg:flex gap-10   `}>
 
                 <div className={"flex relative overflow-hidden mb-8 lg:h-full lg:mb-0 lg:mr-20"}>
                     <img className={" mt-auto h-[345px] rounded-8  lg:h-full  w-full  object-cover "} src="/media/firstfold/Rectangle 38.png" alt=""/>

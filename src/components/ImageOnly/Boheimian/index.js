@@ -1,10 +1,10 @@
 import React from 'react';
-import style from "./ImageOnlyB.module.scss";
+import style from "./ImageOnlyB.scss";
 import image from "../../../images/Rectangle 26.png"
 import image2 from "../../../images/Footer (2).svg"
 const ImageOnlyB = () => {
     return (
-        <div className={`lg:px-[90px] lg:py-[120px] overflow-hidden text-imageOnlyBText ${style.container}`}>
+        <div className={`lg:px-[90px] lg:py-[120px] overflow-hidden text-imageOnlyBText ImageOnlyB`}>
             <div className={`max-w-max lg:mx-auto flex flex-col lg:flex-row justify-between items-center`}>
                 <div className={`w-full lg:w-[70%]`}>
                     {/*<img src={image} alt="" className={"w-full  "}/>*/}

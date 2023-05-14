@@ -1,11 +1,11 @@
 import React from 'react';
-import styles from "./HeaderC.module.scss";
+import  "./HeaderC.scss";
 import logo from "../../../../images/WATERMARK_TheActualized-04 1 (1).svg";
 import arrow from "../../../../images/icons/arrow-right.svg";
 
 const HeaderS11M = () => {
     return (
-        <header className={`text-white relative text-center `}>
+        <header className={` HeaderS11M text-white relative text-center `}>
             {/*<div className={"absolute inset-0 -z-0 opacity-20 w-full h-full bg-b"}></div>*/}
             <img className={"absolute inset-0 -z-10 w-full h-full opacity-50 object-cover"} src="/media/firstfold/Rectangle 47.png" alt=""/>
             <div className={` mx-auto lato relative z-[3] lg:h-[834px] p-4  lg:p-10`}>

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./styles.module.scss"
+import s from "./styles.scss"
 const InstagramS3M = () => {
     const Item = ()=>{
         return(
@@ -9,11 +9,11 @@ const InstagramS3M = () => {
         )
     }
     return (
-        <div className={""}>
+        <div className={"InstagramS3M"}>
            <div className={"layout p-12"}>
             <div className={" justify-between flex w-full flex-col md:flex-row items-center gap-2 mb-12"}>
-                <div className={s.title}> Follow us on Instagram!</div>
-                <div className={s.btn}>
+                <div className={"title"}> Follow us on Instagram!</div>
+                <div className={"btn"}>
                     Go to Instagram
                 </div>
             </div>

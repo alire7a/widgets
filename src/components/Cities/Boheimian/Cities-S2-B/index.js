@@ -1,15 +1,15 @@
 import React from 'react';
-import s from "./styles.module.scss"
+import "./styles.scss"
 const CitiesS2B = () => {
     const City = ({second})=>{
         return(
             <div className={"relative items-center flex flex-col  flex justify-center"}>
-                <img className={s.img} src="/media/city/1.png" alt=""/>
+                <img className={"img"} src="/media/city/1.png" alt=""/>
                 <div className="absolute w-4/5 p-4 left-0 bg-white text-center  text-center">
-                   <div className={s.name}>
+                   <div className={"name"}>
                         NEW YORK
                    </div>
-                    <div className={s.view_btn}>
+                    <div className={"view_btn"}>
                         View City
                     </div>
                 </div>
@@ -19,7 +19,7 @@ const CitiesS2B = () => {
 
     }
     return (
-        <div className={"grid md:grid-cols-2 gap-6"}>
+        <div className={"CitiesS2B grid md:grid-cols-2 gap-6"}>
             <City/>
             <City second/>
         </div>

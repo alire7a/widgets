@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./styles.module.scss"
+import s from "./styles.scss"
 const CitiesS3C = () => {
     const City = ()=>{
         return(
@@ -10,7 +10,7 @@ const CitiesS3C = () => {
                         View City
                     </div>
                 </div>
-                <div className={s.city_name}>
+                <div className={"city_name"}>
                         NEW YORK
                 </div>
             </div>
@@ -18,7 +18,7 @@ const CitiesS3C = () => {
 
     }
     return (
-        <div className={"grid grid-cols-2 max-w-[1200px] m-auto md:grid-cols-4 "}>
+        <div className={"CitiesS3C grid grid-cols-2 max-w-[1200px] m-auto md:grid-cols-4 "}>
             <City/>
             <City/>
             <City/>

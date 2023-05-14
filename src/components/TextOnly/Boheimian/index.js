@@ -1,8 +1,8 @@
 import React from 'react';
-import style from "./TextOnlyB.module.scss"
+import style from "./TextOnlyB.scss"
 const TextOnlyC = () => {
     return (
-        <div className={`lg:px-[90px] lg:py-[120px] ${style.container}`}>
+        <div className={`lg:px-[90px] lg:py-[120px] textonly-b-1`}>
             <div className="w-full  text-center mb-16 py-11 px-8 lg:px-0 rounded-16">
                 <p className={"text-16 leading-[21px]"}>About</p>
                 <div className={"border-1 border-grayBorder w-full m-auto my-6"}></div>

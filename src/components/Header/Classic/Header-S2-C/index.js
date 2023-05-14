@@ -1,12 +1,12 @@
 import React from "react";
-import styles from "./HeaderC.module.scss";
+import styles from "./HeaderC.scss";
 import logo from "../../../../images/WATERMARK_TheActualized-04 1 (1).svg";
 import arrow from "../../../../images/icons/arrow-right.svg";
 
 const HeaderS2C = () => {
   return (
     <>
-      <header className={`text-white text-center ${styles.headerBackground}`}>
+      <header className={`text-white text-center HeaderS2C`}>
         <div className={`w-full`}>
           <nav className={`w-full mx-auto bg-black py-4 px-7 lg:px-11 lg:py-[15px]`}>
             <div className="flex max-w-max mx-auto text-white items-center">
@@ -66,7 +66,7 @@ const HeaderS2C = () => {
                      </div>
                  </div>
              </div>
-             <div className={`text-white order-1  w-full h-[350px] lg:w-[50%] lg:h-[800px] ${styles.rightBackground}`}>
+             <div className={`text-white order-1  w-full h-[350px] lg:w-[50%] lg:h-[800px] rightBackground`}>
 
              </div>
           </div>

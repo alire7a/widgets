@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./TextOnlyM.module.scss"
 const TextOnlyC = () => {
     return (
-        <div className={` lg:py-[120px] ${style.container}`}>
+        <div className={` lg:py-[120px] textonly-m`}>
             <div className="w-full bg-purple text-center mb-16 py-11 text-white px-8 lg:px-0 rounded-16">
                 <div className="max-w-max mx-auto">
                     <p className={"text-16 leading-[21px]"}>About</p>

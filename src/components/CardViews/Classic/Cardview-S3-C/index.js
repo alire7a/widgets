@@ -1,5 +1,5 @@
 import React from 'react';
-import s from "./styles.module.scss"
+import s from "./styles.scss"
 const CardviewS3C = () => {
     const Card = () =>{
         return(
@@ -51,7 +51,7 @@ const CardviewS3C = () => {
         )
     }
     return (
-        <div className={`${s.container} w-full grid sm:grid-cols-2 gap-4 p-4 flex-wrap `}>
+        <div className={`CardviewS3C w-full grid sm:grid-cols-2 gap-4 p-4 flex-wrap `}>
             <Card/>
         </div>
     );
